@@ -1,0 +1,10 @@
+6 6 2
+
+e c
+
+a b b b b b 
+b a b b b b 
+b b a b b b 
+b b b a b b 
+b b b b a b 
+b b b b b a 

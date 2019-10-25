@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{39447fb0-a74d-4dd6-ad7c-6f53cf1f3935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{771d0f6b-7c23-4c6d-aa19-a3462af9e555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{680c9a57-1eb5-484d-a753-65cca99a3b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{fd14eec9-eb0a-43ad-a994-c0a84900f77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factories">
+      <UniqueIdentifier>{50cac6a5-9cd6-4fa7-9a95-a6bd2d27322c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{eece6cb5-da73-4058-b158-cc28030f4ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{14c3e15c-22cb-4da1-89f8-1a37cdd0af7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{68da3be4-e954-450b-8978-68a0bba16b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Enemies">
+      <UniqueIdentifier>{7f05cec2-e57c-40d5-971e-cd1e7abbe878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Enemies">
+      <UniqueIdentifier>{dcc0ecff-5ab3-4b55-9c4a-5c1a5bdee7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Bullets">
+      <UniqueIdentifier>{432c8b33-4a51-4d4d-8328-c6e4ef4a1405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Bullet">
+      <UniqueIdentifier>{40b1b1a3-6fa6-4b56-8581-a26aa1f7a661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{be3cddb0-3726-45be-ba76-a3a100551860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{4b1c2abd-55db-4813-a6cd-a7b2f2725490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{e8c45095-4c01-4a77-aa1b-e258705ca202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{21189d78-5965-4269-81f0-cd3c50e0516b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategy">
+      <UniqueIdentifier>{79384fdb-8d33-414d-9bd5-710bfaa5c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategy\MoveStrategy">
+      <UniqueIdentifier>{da2440b9-08a1-43e8-8f5c-4fc561a67e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strategy">
+      <UniqueIdentifier>{c98b58e2-5e2a-43d0-ad83-89809596a954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strategy\MoveStrategy">
+      <UniqueIdentifier>{cd592a62-c694-479f-8ce2-6d9b4a4ff9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\PowerUps">
+      <UniqueIdentifier>{248eaadb-ae7a-4495-9cf3-79ad8a6bf9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\PowerUps">
+      <UniqueIdentifier>{9436c952-ee91-4752-bdef-346eaec5fb23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGame.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="levelManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEnemy.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartEnemy.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Entities\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBullet.h">
+      <Filter>Header Files\Entities\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEnemyBullet.h">
+      <Filter>Header Files\Entities\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files\Entities\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMove.h">
+      <Filter>Header Files\Strategy\MoveStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportMove.h">
+      <Filter>Header Files\Strategy\MoveStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveStrategy.h">
+      <Filter>Header Files\Strategy\MoveStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraLife.h">
+      <Filter>Header Files\Entities\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScore.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveHorizontal.h">
+      <Filter>Header Files\Strategy\MoveStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldPowerUp.h">
+      <Filter>Header Files\Entities\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBullet.h">
+      <Filter>Header Files\Entities\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemy.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMove.h">
+      <Filter>Header Files\Strategy\MoveStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExceptions.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoreManager.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Chronometer.hpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBulletPowerUp.h">
+      <Filter>Header Files\Entities\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="Weaponable.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGame.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="levelManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEnemy.cpp">
+      <Filter>Source Files\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartEnemy.cpp">
+      <Filter>Source Files\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Entities\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBullet.cpp">
+      <Filter>Source Files\Entities\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Source Files\Entities\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEnemyBullet.cpp">
+      <Filter>Source Files\Entities\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMove.cpp">
+      <Filter>Source Files\Strategy\MoveStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportMove.cpp">
+      <Filter>Source Files\Strategy\MoveStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveHorizontal.cpp">
+      <Filter>Source Files\Strategy\MoveStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveBullet.cpp">
+      <Filter>Source Files\Entities\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtraLife.cpp">
+      <Filter>Source Files\Entities\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScore.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldPowerUp.cpp">
+      <Filter>Source Files\Entities\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnemy.cpp">
+      <Filter>Source Files\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMove.cpp">
+      <Filter>Source Files\Strategy\MoveStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoreManager.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveBulletPowerUp.cpp">
+      <Filter>Source Files\Entities\PowerUps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>
