@@ -4,7 +4,7 @@ Space Invaders Clone
 Joey Mizrahi 
 Avshalom Belger 
 
-[![SC2 Video](doc/SC2_youtube.gif)](https://www.youtube.com/watch?v=--b-9HrKK6w)
+[![Final Video](OOP2_Project_Space_Invaders/Sprites/final.gif)](https://www.youtube.com/watch?v=SLQuXSj7Ak8)
 
 
 
