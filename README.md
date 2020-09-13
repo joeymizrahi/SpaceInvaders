@@ -7,29 +7,28 @@ Avshalom Belger
 
 
 	•	Game Explanation:
-You the user are a spaceship, you move left and right using the arrow keys,
-And shoot using space. Your mortal enemies are weird looking squids and crabs.
-The goal in the game is to get to the boss level, the evil squid monster.
-The simple enemies move as a group (an army) once in every N seconds the enemy will teleport and be in your face. It will then follow you (the hero) around.
-The boss squid has a lot more health and moves in a different way.
+		You the user are a spaceship, you move left and right using the arrow keys,
+		And shoot using space. Your mortal enemies are weird looking squids and crabs.
+		The goal in the game is to get to the boss level, the evil squid monster.
+		The simple enemies move as a group (an army) once in every N seconds the enemy will teleport and be in your face. It will then follow you (the hero) around.
+		The boss squid has a lot more health and moves in a different way.
 
 	•	Files and classes:
-	•	Main.cpp 
-The main file that runs the start of the GameManager, pushes a menu state.
-	•	Macros.h 
-The file holds all defines and consts, enums, structs as well as usings and includes used throughout the program.
+		• Main.cpp 
+		  The main file that runs the start of the GameManager, pushes a menu state.
+		• Macros.h 
+		  The file holds all defines and consts, enums, structs as well as usings and includes used throughout the program.
 
+		• Resources
+		 The resources class is in charge of loading and holding all outer files, 
+		 Such as pictures, music’s and fonts.
+		 It is a static Singleton class.
 
-	•	Resources
-The resources class is in charge of loading and holding all outer files, 
-Such as pictures, music’s and fonts.
-It is a static Singleton class.
-
-	•	Chronometer:
-A namespace which is an expansion of sf::clock, it has an addition of a pause and resume function which allows us to pause and resume the game clock when we pass between states.
-	•	Logger
-A singleton static class, the class holds the logger file. The logger file will hold times of major things that happened throughout the program. such as Exceptions, collisions and more.
-If the program has ever failed, the logger file will allow us to know the reason.
+		• Chronometer:
+		  A namespace which is an expansion of sf::clock, it has an addition of a pause and resume function which allows us to pause and resume the game clock when we 	                   pass between states.
+		• Logger
+		A singleton static class, the class holds the logger file. The logger file will hold times of major things that happened throughout the program. such as Exceptions, collisions and more.
+		If the program has ever failed, the logger file will allow us to know the reason.
 	•	Bullet, Enemy, PowerUp factories
 These classes are each in charge of creating objects.
 The class holds a static map which holds a key matching to the proper objects and a pointer to a function which creates the object. Each object is in charge of registering itself to the factory.
