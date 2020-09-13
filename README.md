@@ -80,49 +80,49 @@ Inherits from MoveStrategy and continues to move the enemy according to his prev
 	•	BossMove
 Inherits from MoveStrategy and moves the boss
 
-	•	Entity:
+•Entity:
 Abstract class which represents a game object.
-	•	Bullet:
+•Bullet:
 Abstract class represents a bullet
-	•	SimpleEnemyBullet:
+•SimpleEnemyBullet:
 Bullet for enemy
-	•	DefaultBullet
+•DefaultBullet
 Default hero bullet
-	•	WaveBullet
+•	WaveBullet
 Bullet for hero gotten after a powerup
 
-	•	Weaponable
+•	Weaponable
 Abstract class represents an enemy or hero
-	•	Ship
+•	Ship
 Inherits from weaponable, is the hero class
-	•	Enemy.
+•Enemy.
 Inherits from weaponable, is abstract
-	•	SimpleEnemy
+•SimpleEnemy
 Inherits from enemy
-	•	smartEnemy
+•smartEnemy
 Inherits from enemy
-	•	BossEnemy
+•BossEnemy
 Inherits from enemy
 	
-	26. PowerUp
-	       Abstract class that inherits from entity.
-	27. Shield
-	28. WaveBullet
-	29. Life
+26. PowerUp
+       Abstract class that inherits from entity.
+27. Shield
+28. WaveBullet
+29. Life
 
 
-	•	DataStructures:
+•DataStructures:
 
-	•	Map:
+•Map:
 All factories hold a map
-	•	Multimap:
+•Multimap:
 For high score, is multimap because we want it sorted and allow the duplicate keys.
-	•	Stack:
+•Stack:
 GameManager holds stack of game states.
-	•	Vectors:
+•Vectors:
 Entities, textures, sounds …… 
 
-	•	Bugs:
+•Bugs:
 No knows bugs.
 Link to Video: [AwesomeVid](https://www.youtube.com/watch?v=SLQuXSj7Ak8)
 
