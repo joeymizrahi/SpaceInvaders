@@ -67,17 +67,17 @@ Inherits from command, loads from multimap, makes sf::Texts and draws them on th
 	•	NewGame:
 Pushes the playingState.
 
-	•	MoveStrategy:
+•	MoveStrategy:
 Abstract class that represents the enemy’s movements.
 	•	SimpleMove
 Inherits from MoveStrategy, is the default move for the simple enemies.
 Moves them in an army motion.
-	•	TeleportMove.
+•	TeleportMove.
 Inherits from MoveStrategy and continues to move the enemy according to his previous move, until the teleport animation stops. It then puts the enemy’s position in front of the ship. And changes the enemy’s move Strategy to horizontal move.
 	23.HorizontalMove
      Inherits from MoveStrategy, this move is given to the enemy that was just 
      teleported in front of the ship.
-	•	BossMove
+•	BossMove
 Inherits from MoveStrategy and moves the boss
 
 •Entity:
