@@ -7,8 +7,6 @@ Avshalom Belger
 [![Final Video](OOP2_Project_Space_Invaders/Sprites/final.gif)](https://www.youtube.com/watch?v=SLQuXSj7Ak8)
 
 
-[![](https://github.com/eitanshalev/Digger/blob/main/DIGGER_GAME.gif)](http://www.youtube.com/watch?v=zQyBtQYChKc "my video")
-
 Game Explanation:
 You the user are a spaceship, you move left and right using the arrow keys,
 And shoot using space. Your mortal enemies are weird looking squids and crabs.
