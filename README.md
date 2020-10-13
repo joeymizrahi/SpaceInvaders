@@ -7,7 +7,7 @@ Avshalom Belger
 [![Final Video](OOP2_Project_Space_Invaders/Sprites/final.gif)](https://www.youtube.com/watch?v=SLQuXSj7Ak8)
 
 
-
+[![](http://img.youtube.com/vi/zQyBtQYChKc/0.jpg)](http://www.youtube.com/watch?v=zQyBtQYChKc "my video")
 
 Game Explanation:
 You the user are a spaceship, you move left and right using the arrow keys,
